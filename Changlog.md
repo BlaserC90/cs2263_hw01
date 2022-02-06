@@ -9,8 +9,9 @@ Release date: 2/6/2022
 
 Version 1.0.0
 
-Added:
-Changed:
+Added: CLI feature
+
+Changed: 
 Deprecated:
 Removed:
 Fixed:

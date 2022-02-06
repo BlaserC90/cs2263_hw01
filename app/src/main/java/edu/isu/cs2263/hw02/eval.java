@@ -28,10 +28,10 @@ public class eval{
             formatter.printHelp("eval", header, options, footer, true);
             System.exit(0);
         } else if ("-b".equals(args[0]) || "--batch".equals(args[0])) {
-            System.out.println("Batch value: lib");
+            System.out.println("Batch value: lib");//lib = textfile
 
         } else if ("-o".equals(args[0]) || "--output".equals(args[0])) {
-            System.out.println("Output value: lib");
+            System.out.println("Output value: lib");  //lib = textfile
 
         }else{ //if the command line is empty
       //      TODO
