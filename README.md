@@ -13,6 +13,10 @@ how to use gradle, git, and github.
 
 # How to get started
 
-# Where to get help
+# Current known issues:
+Program compiles and runs with no issues in intellij IDEA with any of the options
+from the command line i.e(no argument, -b --batch, -h --help, -o --output.
+When run through gradle, program runs with -h, --help, -b, --batch, but fails to
+to run with -o,--output, and no argument.
 
 # Maintained and contributed to by Chris Blaser
