@@ -2,6 +2,26 @@
 This change log will follow semantic versioning
 ------------------------------------------------------------------------
 
+Rlease date: 2/6/2022
+
+Version 1.2.0
+
+Added: functionality to write the expressions and output to a file
+
+Changed: modified several files to accomodate this change
+
+Decprecated: none
+
+Removed: methods that remained unused
+
+Fixed: minor issues with formatting
+
+Security: none
+
+Unreleased: 
+
+-------------------------------------------------------------------------
+
 Release date: 2/6/2022
 
 Version: 1.1.0
