@@ -15,7 +15,7 @@ public class batchRead extends Calc{
     public void Read(String path){
         try {
             int lineCounter = 1;
-            File batch = new File("" + path);
+            File batch = new File(path);
             Scanner reader = new Scanner(batch);
             while (reader.hasNextLine()) {
                 String data = reader.nextLine();
@@ -29,11 +29,8 @@ public class batchRead extends Calc{
             }
             reader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred. Make sure you used an actual file.");
+            System.out.println("File not found. Make the file path is correctly inputted in the command line.");
             e.printStackTrace();
         }
     }
-    public static void main(String[] args){
-
-        }
 }
